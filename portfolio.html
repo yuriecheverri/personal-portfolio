@@ -1,69 +1,105 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel = stylesheet href="style.css">
+    <link rel=stylesheet href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <script src="https://kit.fontawesome.com/e1368c2029.js" crossorigin="anonymous"></script>
 </head>
-<body> 
-    <nav>
-        <ul>
-            <li>
-                HOLA
-            </li>
-            <li>
-                CONOCIMIENTOS
-            </li>
-            <li>
-                POYECTOS
-            </li>
-            <li>
-                CONTACTO
-            </li>
-        </ul>
-    </nav>
-    <section>
-        <h3>
-            !Hola! Soy Yuri Echeverri
-        </h3>
-        <h1>
-            Ada Lovelace
-        </h1>
-            <p>
-                Desarrolladrora, administrativa, mamá de Celeste, y amante de la naturazleza!
-            </p>      
-            <button>
-                LO QUE HAGO
-            </button> 
-            <img src="https://thumbs.dreamstime.com/b/mujer-trabajando-muy-arduamente-la-multitarea-duro-con-muchas-cosas-para-hacer-ilustraci%C3%B3n-vectorial-plana-aislada-en-fondo-206353946.jpg" alt="imagen de mujer trabajadora"
-        </section>
-        <section>
-            <h2>
-                Mis conocimientos
+
+<body>
+    <!-- Este header contiene la navegación del sitio y los links directos a las secciones -->
+    <header class="header">
+        <nav class="header_nav">
+            <ul class="header_nav_list">
+                <li class="header_nav_list_item">
+                    HOLA
+                </li>
+                <li class="header_nav_list_item">
+                    CONOCIMIENTOS
+                </li>
+                <li class="header_nav_list_item">
+                    POYECTOS
+                </li>
+                <li class="header_nav_list_item-contacto">
+                    CONTACTO
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="presentation">
+        <div class="presentation_container-1">
+            <h2 class="presentation_container-name">
+                !Hola! Soy Yuri Echeverri
             </h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci pariatur quae harum. Eligendi consectetur distinctio placeat, minima nemo in similique.
-                </p>
-            <article>
-                HTML 5
+            <h4 class="presentation_container-ada">
+                Ada Lovelace
+            </h4>
+            <p class="presentation_container-text">
+                Desarrolladrora, administrativa, mamá de Celeste, y amante de la naturazleza!
+            </p>
+            <button class="presentation_container-button">
+                LO QUE HAGO
+            </button>
+        </div>
+        <div class="presentation_container-img">
+            <img src="https://thumbs.dreamstime.com/b/mujer-trabajando-muy-arduamente-la-multitarea-duro-con-muchas-cosas-para-hacer-ilustraci%C3%B3n-vectorial-plana-aislada-en-fondo-206353946.jpg"
+                alt="imagen de mujer trabajadora">
+        </div>
+    </section>
+    <section class="mySkills">
+        <h2 class="skills-tittle">
+            Mis conocimientos
+        </h2>
+        <p class="skills-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci pariatur quae harum. Eligendi
+            consectetur distinctio placeat, minima nemo in similique.
+        </p>
+        <div class="skills">
+            <article class="skills_card">
+                <i class="fa-brands fa-html5 skills_card-icon"></i>
+                <p>HTML 5</p>
             </article>
-            <article>
-                CSS 3
+            <article class="skills_card">
+                <i class="devicon-css3-plain colored skills_card-icon"></i>
+                <p>CSS 3</p>
             </article>
-            <article>
-                Sass
+            <article class="skills_card">
+                <i class="devicon-sass-original colored skills_card-icon"></i>
+                <p>Sass</p>
             </article>
-            <article>
-                JavaScript
+            <article class="skills_card">
+                <i class="devicon-javascript-plain colored skills_card-icon"></i>
+                <p>JavaScript</p>
             </article>
-            <article>
-                React
-            <article>
-                GIT
+            <article class="skills_card">
+                <i class="devicon-react-original colored skills_card-icon"></i>
+                <p>React</p>
             </article>
-        </section>
-    
+            <article class="skills_card">
+                <i class="devicon-git-plain colored skills_card-icon"></i>
+                <p>GIT</p>
+            </article>
+        </div>
+    </section>
+    <!-- Fin de la seccion de habilidades -->
+    <div class="quote">
+        <div class="quote_content">
+            <i class="fa-solid fa-quote-right quote_icon"></i>
+            <p class=quote_text>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, dolorem, est ad illum architecto
+                doloribus corporis unde nemo recusandae blanditiis vel, et ipsum sint quod nesciunt nisi quidem
+                asperiores! Explicabo.
+            </p>
+            <span class="quote_author">
+                Someone
+            </span>
+        </div>
+    </div>
 </body>
+
 </html>

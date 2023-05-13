@@ -1,1 +1,146 @@
-body {}
+body {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    box-shadow: 0px 6px 10px #f0f0f0;
+    padding: 15px;
+    margin-bottom: 30px;   
+    
+}
+
+.header_nav_list {
+    width: 85%;
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+.header_nav_list_item {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    }
+
+.header_nav_list_item-contacto{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #617A55;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+
+.presentation {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.presentation_container-name {
+    font-weight:bold;
+    font-size: 2em;
+    margin: 0;
+}
+
+.presentation_container-ada {
+    font-weight:900;
+    font-size: 4em;
+    color: #617A55;
+    margin: 0;
+    }
+
+.presentation_container-button {
+    background-color: #617A55;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+
+.presentation_container-img{
+    width: 600px;
+    height:600px;
+}
+
+.presentation_container-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.skills-tittle {
+    text-align: center;
+    font-weight: 900;
+    font-size: 3em;
+
+}
+
+.skills-text {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: 60px auto 0;
+    gap: 20px;
+}
+
+.skills_card {
+    width: 100%;
+    height: 200px;
+    border:1px solid #b4b4b470;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.skills_card-icon {
+    font-size: 4.5em;
+    color: #617A55;
+}
+
+.quote {
+    background-color: #617A55;
+    padding: 150px;
+
+}
+
+.quote_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+
+}
+
+.quote_icon {
+    font-size: 6em;
+    
+}
+
+.quote_text {
+    font-size: 1.3em;
+    text-align: center;
+    margin: 50px;
+}
+
+.quote_author {
+    font-weight: 800;
+    font-size: 2em;
+}
