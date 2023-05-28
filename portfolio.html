@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
     <link rel=stylesheet href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     <script src="https://kit.fontawesome.com/e1368c2029.js" crossorigin="anonymous"></script>
@@ -17,16 +17,16 @@
         <nav class="header_nav">
             <ul class="header_nav_list">
                 <li class="header_nav_list_item">
-                    HOLA
+                    <a href="#presentacion" class="links">HOLA</a>
                 </li>
                 <li class="header_nav_list_item">
-                    CONOCIMIENTOS
+                    <a href="#conocimientos" class="links">CONOCIMIENTOS</a>
                 </li>
                 <li class="header_nav_list_item">
-                    POYECTOS
+                    <a href="#proyectos" class="links">PROYECTOS</a>
                 </li>
                 <li class="header_nav_list_item-contacto">
-                    CONTACTO
+                    <a href="#contacto" class="links links2">CONTACTO</a>
                 </li>
             </ul>
         </nav>
@@ -35,7 +35,7 @@
     <!--fin del header con navegación-->
 
     <!-- Inicio de sección de presentación -->
-    <section class="presentation">
+    <section id="presentacion" class="presentation">
         <div class="presentation_container-1">
             <h2 class="presentation_container-name">
                 !Hola! Soy Yuri Echeverri
@@ -57,8 +57,8 @@
     </section>
     <!-- Fin de ección de presentación -->
 
-    <!-- Inicia sección de habilidades  -->
-    <section class="mySkills">
+    <!-- Inicia sección de conocimientos  -->
+    <section id="conocimientos" class="mySkills">
         <h2 class="skills-tittle">
             Mis conocimientos
         </h2>
@@ -93,8 +93,8 @@
             </article>
         </div>
     </section>
-    <!-- Fin de la seccion de habilidades -->
-    
+    <!-- Fin de la seccion de conocimientos -->
+
     <!-- Inicia cita -->
     <div class="quote">
         <div class="quote_content">
@@ -112,7 +112,7 @@
     <!-- Fin de la cita  -->
 
     <!-- Inicia sección de proyectos  -->
-    <section class="myProjects">
+    <section id="proyectos" class="myProjects">
         <h2 class="projects-tittle">
             Mis proyectos
         </h2>
@@ -156,67 +156,75 @@
     <!-- Fin de sección de proyectos  -->
 
     <!-- Inicia sección de contacto  -->
-    <section class="Form">
-        <div class="contact">
-            <h3 class="contact-tittle">
-                Contactame
-            </h3>
-            <p class="contact-text">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus autem corrupti facere quisquam non
-                ipsa unde dolor soluta veritatis temporibus veniam error ut quod inventore repudiandae velit sapiente,
-                dolorum quas ipsam quis beatae, atque delectus.
-            </p>
-            <ul class="contact_list">
-                <li class="contact_list-item">
-                    <i class="fa-brands fa-twitter contact_list_item-icon"></i>
-                    <span>
-                        @yuriecheverri
-                    </span>
-                </li>
-                <li class="contact_list-item">
-                    <i class="fa-brands fa-github contact_list_item-icon"></i>
-                    <span>
-                        yuriecheverri
-                    </span>
-                </li>
-                <li class="contact_list-item">
-                    <i class="fa-brands fa-linkedin contact_list_item-icon"></i>
-                    <span>
-                        yuriecheverri
-                    </span>
-                </li>
-                <li class="contact_list-item">
-                    <i class="fa-solid fa-envelope contact_list_item-icon"></i>
-                    <span>
-                        leissyesanchez@gmail.com
-                    </span>
-                </li>
-            </ul>
-        </div>
-        <div class="write-me">
-            <h3 class="write-me-tittle">
-                Escribeme
-            </h3>
-            <form id="contact-form" class="write-me-form">
-                <label for="nombre" class="write-me-form-label label-name">
-                    Nombre*
-                    <input type="text" placeholder="Ingrese su nombre" class="write-me-form-input"></input>
-                </label>
-                <label for="apellido" class="write-me-form-label label-last-name">
-                    Apellido*
-                    <input type="text" placeholder="Ingrese su apellido" class="write-me-form-input"></input>
-                </label>
-                <label for="Email" class="write-me-form-label">
-                    Email*
-                    <input type="text" placeholder="Ingrese su email" class="write-me-form-input"></input>
-                </label>
-                <label for="Mensaje" class="write-me-form-label">
-                    Mensaje*
-                    <textarea type="text" class="write-me-form-input" placeholder="Ingrese su mensaje" cols="50"
-                        rows="10"></textarea>
-                </label>
-                <input type="submit" value="Enviar" class="write-me-form-send"></input>
-            </form>
+    <section id="contacto" class="contacto">
+        <div class="Form">
+            <div class="contact">
+                <h3 class="contact-tittle">
+                    Contactame
+                </h3>
+                <p class="contact-text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus autem corrupti facere quisquam
+                    non
+                    ipsa unde dolor soluta veritatis temporibus veniam error ut quod inventore repudiandae velit
+                    sapiente,
+                    dolorum quas ipsam quis beatae, atque delectus.
+                </p>
+                <ul class="contact_list">
+                    <li class="contact_list-item">
+                        <a href="#" target="_blank" class="contact_list-links"> <i class="fa-brands fa-twitter contact_list_item-icon"></i>
+                            <span>
+                                @yuriecheverri
+                            </span>
+                        </a>
+                    </li>
+                    <li class="contact_list-item">
+                        <a href="#" target="_blank" class="contact_list-links"> <i class="fa-brands fa-github contact_list_item-icon"></i>
+                            <span>
+                                yuriecheverri
+                            </span>
+                        </a>
+                    </li>
+                    <li class="contact_list-item">
+                        <a href="" target="_blank" class="contact_list-links"> <i class="fa-brands fa-linkedin contact_list_item-icon"></i>
+                            <span>
+                                yuriecheverri
+                            </span>
+                        </a>
+                    </li>
+                    <li class="contact_list-item">
+                        <a href="" target="_blank" class="contact_list-links"> <i class="fa-solid fa-envelope contact_list_item-icon"></i>
+                            <span>
+                                leissyesanchez@gmail.com
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="form2">
+                <h3 class="form2-tittle">
+                    Escribeme
+                </h3>
+                <form id="form2" class="form2">
+                    <label for="nombre" class="form2-label label-name">
+                        Nombre*
+                        <input type="text" placeholder="Ingrese su nombre" class="form2-input"></input>
+                    </label>
+                    <label for="apellido" class="form2-label label-last-name">
+                        Apellido*
+                        <input type="text" placeholder="Ingrese su apellido" class="form2-input"></input>
+                    </label>
+                    <label for="Email" class="form2-label">
+                        Email*
+                        <input type="text" placeholder="Ingrese su email" class="form2-input"></input>
+                    </label>
+                    <label for="Mensaje" class="form2-label">
+                        Mensaje*
+                        <textarea type="text" class="form2-input" placeholder="Ingrese su mensaje" cols="35"
+                            rows="10"></textarea>
+                    </label>
+                    <input type="submit" value="Enviar" class="form2-send"></input>
+                </form>
+            </div>
         </div>
     </section>
     <br>
@@ -229,16 +237,16 @@
         <div class="footer_container">
             <ul class="footer_container_list">
                 <li class="footer_container_list_item">
-                    HOLA
+                    <a href="#presentacion" class="links links2">HOLA</a>
                 </li>
                 <li class="footer_container_list_item">
-                    CONOCIMIENTOS
+                    <a href="#conocimientos" class="links links2">CONOCIMIENTOS</a>
                 </li>
                 <li class="footer_container_list_item">
-                    POYECTOS
+                    <a href="#proyectos" class="links links2">PROYECTOS</a>
                 </li>
                 <li class="footer_container_list_item">
-                    CONTACTO
+                    <a href="#contacto" class="links links2">CONTACTO</a>
                 </li>
             </ul>
             <div class="footer_icons">
@@ -255,8 +263,8 @@
                     <i class="fa-solid fa-envelope footer_icons_items"></i>
                 </a>
             </div>
-            <h6 class="end"> 
-                Hecho con <span>Amor</span> por Yuri</h6>
+            <h6 class="end">
+                Hecho con <i class="fa-solid fa-heart"></i> por Yuri</h6>
         </div>
     </footer>
     <!-- Fin del footer con links de navegación y contacto -->
