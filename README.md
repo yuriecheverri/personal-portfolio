@@ -1,7 +1,7 @@
 # Portafolio
 ## Portafolio personal de los proyectos y conocimientos aplicados en el curso de Ada Frontend
 
-En la primera seccion se encuentra las principales hailidades con las que terminarems el cuerso de Ada. A continuación relacionamos los conocimientos adquiridos en el primer TP:
+En la primera seccion se encuentra las principales habilidades con las que terminaremos el curso de Ada. A continuación relacionamos los conocimientos adquiridos en el primer TP:
 - [X] HTML 5
 - [X] CSS3
 - [ ] SASS
