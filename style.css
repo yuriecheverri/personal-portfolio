@@ -64,6 +64,7 @@ body {
     margin: 0 auto;
     justify-content: center;
     align-items: center;
+    gap: 30px;
 }
 
 .presentation_container-name {
@@ -98,8 +99,12 @@ body {
 }
 
 .presentation_container-img {
-    width: 600px;
-    height: 600px;
+    overflow: hidden;
+    width: 550px;
+    height: 550px;
+    border: 1px solid #F7E1AE;
+    border-radius: 50%;
+    box-shadow: 0px 0px 30px pink;
 }
 
 .presentation_container-img img {
@@ -152,7 +157,7 @@ body {
 
 .skills_card-icon {
     font-size: 4.5em;
-    color: #617A55;
+    color: #44533c;
 }
 
 .quote {
@@ -240,6 +245,11 @@ body {
     height: 200px;
 
 }
+
+/* .special_image {
+    width: 100px;
+    height: 100px;
+} */
 
 .contacto{
     padding-top: 100px;
