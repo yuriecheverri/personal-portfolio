@@ -22,7 +22,15 @@ Finalmente les compartimos nuestros datos de contacto commo lo son
 * GitHub
 * Correo electrónico
 
-**URL:  https://yuriecheverri.github.io/personal-portfolio/**
+**URL:[Portafolio Yuri Echeverri](https://yuriecheverri.github.io/personal-portfolio/)**
+
+##Responsivo
+
+El sitio tiene 3 puntos de quiebre para responsivedar cumplimiento  a la responsividad y son los siguientes:
+
+*992px
+*768px
+*576px
 
 *Esta primera entrega de proyecto nos permitió maquetar en su totalidad el sitio dandole los estilos adecuados y un toque especial de acuerdo a nuestros gustos. El primer paso para retarnos a nosotras mismas y convertirnos en las tan soñadas desarrolladoras web.* 
 
