@@ -18,9 +18,9 @@ En la segunda sección se puede apreciar 6 de los proyectos que se realizaran en
 - [ ] Buscador de peliculas
 
 Finalmente les compartimos nuestros datos de contacto commo lo son 
-* LinkedIn
-* GitHub
-* Correo electrónico
+-LinkedIn
+-GitHub
+-Correo electrónico
 
 **URL:[Portafolio Yuri Echeverri](https://yuriecheverri.github.io/personal-portfolio/)**
 
