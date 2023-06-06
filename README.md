@@ -26,7 +26,7 @@ Finalmente les compartimos nuestros datos de contacto commo lo son
 
 ## Responsivo
 
-El sitio tiene 3 puntos de quiebre para responsivedar cumplimiento  a la responsividad y son los siguientes:
+El sitio tiene 3 puntos de quiebre para dar cumplimiento  a la responsividad y son los siguientes:
 
 1. 992px
 2. 768px
